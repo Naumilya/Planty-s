@@ -1,0 +1,113 @@
+@import url(null.scss);
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Quicksand:wght@300;400;500&display=swap");
+.body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400; }
+
+.nav {
+  padding: 40px 0 30px 0; }
+
+.button {
+  font-family: "Quicksand", sans-serif;
+  padding: 14.3px 44px;
+  font-weight: 500;
+  font-size: 19.62px;
+  cursor: pointer;
+  background-color: #010101;
+  color: #fff;
+  border-radius: 38.1px;
+  transition: 0.3s; }
+
+.button:hover {
+  background-color: #fff;
+  color: #010101;
+  transition: 0.3s; }
+
+.wrapper .container {
+  max-width: 1340px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+  .wrapper .container .nav__list {
+    display: flex; }
+    .wrapper .container .nav__list .nav__link {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      padding: 0 22.5px;
+      font-family: "Quicksand", sans-serif; }
+  .wrapper .container .nav__bar {
+    display: flex; }
+    .wrapper .container .nav__bar .nav__icons {
+      padding: 0 16.5px; }
+
+.container {
+  display: flex;
+  max-width: 1340px;
+  margin: 0 auto; }
+  .container .main-block__content {
+    padding-top: 62px; }
+    .container .main-block__content .main__tittle {
+      font-size: 96px;
+      font-family: "Lora", serif;
+      letter-spacing: -0.5px;
+      min-width: 725px; }
+    .container .main-block__content .main__btn {
+      padding-top: 36.3px; }
+    .container .main-block__content .main__mini-tittle {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: "Lora", serif;
+      padding-top: 82px; }
+    .container .main-block__content .main__mini-subtittle {
+      font-size: 16px;
+      font-family: "Quicksand", sans-serif;
+      padding-top: 41px; }
+    .container .main-block__content .main__guests {
+      padding-top: 65px;
+      display: flex;
+      justify-content: space-between;
+      max-width: 395px; }
+      .container .main-block__content .main__guests .guest {
+        font-size: 36px;
+        font-weight: 900;
+        font-family: "Quicksand", sans-serif;
+        color: #c1c1c1; }
+
+.under__text {
+  padding-top: 83px;
+  display: block; }
+  .under__text .contain__text {
+    display: flex; }
+    .under__text .contain__text .text1 {
+      font-size: 24px;
+      font-family: "Quicksand", sans-serif; }
+    .under__text .contain__text .text2 {
+      font-size: 36px;
+      font-family: "Lora", serif; }
+  .under__text .lern-more {
+    padding-top: 68px;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer; }
+    .under__text .lern-more P {
+      font-family: "Lora", serif;
+      font-size: 20px;
+      margin-right: 34px; }
+
+.step-slider {
+  padding-top: 156px; }
+  .step-slider .step-slider__content {
+    padding-top: 61px; }
+    .step-slider .step-slider__content .step1 {
+      color: #000;
+      font-family: "Quicksand", sans-serif;
+      letter-spacing: 1px;
+      font-family: 500;
+      font-size: 20px; }
+    .step-slider .step-slider__content .text-step {
+      font-size: 36px; }
+    .step-slider .step-slider__content #slider__btn {
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

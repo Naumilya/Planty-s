@@ -1,0 +1,187 @@
+@import url(null.scss);
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Quicksand:wght@300;400;500&display=swap');
+
+// Variables
+$ff-Lora:'Lora', serif;
+$ff-QuickSand:  'Quicksand', sans-serif;
+$bg-color_1: #EDEDED;
+$Base: 4;
+
+// Variables
+
+// Base
+
+.body{
+    font-family: $ff-QuickSand;
+    font-weight: $Base*100;
+}
+
+.nav{
+    padding: 40px 0 30px 0;
+}
+
+.button{
+    font-family: $ff-QuickSand;
+    padding: 14.3px $Base*11px;
+    font-weight: 500;
+    font-size: 19.62px;
+    
+    cursor: pointer;
+    background-color: #010101;
+    color:  #fff;
+    border-radius: 38.1px;
+    
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #fff;
+    color:  #010101;
+    transition: 0.3s;
+}
+// Base
+
+
+//header
+.wrapper{
+    .container{
+        max-width: $Base*335px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+
+        .nav__logo{
+    
+        }
+        .nav__list{
+            display: flex;
+            .nav__link{
+                text-decoration: none;
+                color: #000;
+                font-size: 16px;
+                padding: 0 22.5px;
+
+                font-family: $ff-QuickSand;
+            }
+        }
+        .nav__bar{
+            display: flex;
+            .nav__icons{
+                padding: 0 16.5px;
+            }
+        }
+    }
+
+}
+
+.container{
+    display: flex;
+    max-width: $Base*335px;
+    margin: 0 auto;
+    .main-block__content{
+        padding-top: 62px;
+        .main__tittle{
+            font-size: $Base*24px;
+            font-family: $ff-Lora;
+            letter-spacing: -0.5px;
+            min-width: 725px;//!!!
+        }
+        .main__btn{
+            padding-top: 36.3px;
+        }
+        .main__mini-tittle{
+            font-size: 24px;
+            font-weight: 500;
+            font-family: $ff-Lora;
+            padding-top: 82px;
+        }
+        .main__mini-subtittle{
+            font-size: 16px;
+            font-family: $ff-QuickSand;
+            padding-top: 41px;
+        }
+        .main__guests{
+            padding-top: 65px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 395px;
+            .guest{
+                font-size: 36px;
+                font-weight: 900;
+                font-family: $ff-QuickSand;
+
+                color: #c1c1c1;
+            }
+        }
+    }
+
+    
+}
+//header
+
+//under text
+.under__text{
+    padding-top: 83px;
+    display: block;
+    .contain__text{
+        display: flex;
+
+        .text1{
+            font-size: 24px;
+            font-family: $ff-QuickSand;
+        }
+
+        .text2{
+            font-size: 36px;
+            font-family: $ff-Lora;
+        }
+    }
+
+    .lern-more{
+        padding-top: 68px;
+        display: flex;
+        margin: 0 auto;
+        cursor: pointer;
+
+        P{
+            font-family: $ff-Lora;
+            font-size: 20px;
+            
+            margin-right: 34px;
+        }
+    }
+}
+//under text
+
+//step-slider
+.step-slider{
+    padding-top: 156px;
+
+    .step-slider__content{
+        padding-top: 61px;
+        .step1{
+            color: #000;
+            font-family: $ff-QuickSand;
+            letter-spacing: 1px;
+            font-family: 500;
+            font-size: 20px;
+        }
+        .text-step{
+            font-size: 36px;
+        }
+
+        #slider__btn{
+            cursor: pointer;
+        }
+    }
+
+}
+
+//step-slider
+
+
+
+//media
+
+
